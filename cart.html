@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stationery Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Your Cart 🛒</h1>
+    <button onclick="goBack()" class="back-btn">⬅ Back</button>
+  </header>
+
+  <main class="cart-container" id="cartContainer"></main>
+  <footer class="cart-total" id="cartTotal"></footer>
+  <div style="text-align:center;">
+    <button onclick="clearCart()" class="clear-btn">Clear Cart</button>
+    <button onclick="checkout()" class="checkout-btn">Checkout</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
