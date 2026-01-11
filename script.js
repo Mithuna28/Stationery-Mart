@@ -163,7 +163,9 @@ if (window.location.pathname.includes("thankyou.html")) {
     }
   }
 }
-function backToLogin() {
+function backToHome() {
   window.location.href = "index.html";
 }
+
+
 
