@@ -164,5 +164,6 @@ if (window.location.pathname.includes("thankyou.html")) {
   }
 }
 function backToLogin() {
-  window.location.href = "login.html";
+  window.location.href = "index.html";
 }
+
